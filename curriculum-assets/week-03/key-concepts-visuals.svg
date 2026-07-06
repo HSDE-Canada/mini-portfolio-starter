@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f4f7ff"/>
+  <text x="48" y="58" font-family="Arial" font-size="34" font-weight="700" fill="#20264f">Week 3: Arrays, Objects, Loops &amp; Rendering</text>
+  <text x="48" y="92" font-family="Arial" font-size="18" fill="#5c6388">Concrete outputs for arrays, objects, loops, template strings, and cards</text>
+
+  <rect x="48" y="130" width="520" height="250" rx="26" fill="#111827"/>
+  <text x="78" y="168" font-family="Arial" font-size="18" fill="#9ca3af">Terminal / console output</text>
+  <text x="78" y="215" font-family="Courier New" font-size="22" fill="#22c55e">&gt; for (const book of books)</text>
+  <text x="78" y="260" font-family="Courier New" font-size="24" fill="#ffffff">Wonder</text>
+  <text x="78" y="300" font-family="Courier New" font-size="24" fill="#ffffff">The Hobbit</text>
+  <text x="78" y="340" font-family="Courier New" font-size="24" fill="#ffffff">Charlotte's Web</text>
+
+  <rect x="632" y="130" width="520" height="250" rx="26" fill="#ffffff" stroke="#d8e2ff"/>
+  <text x="662" y="174" font-family="Arial" font-size="22" font-weight="700" fill="#20264f">Object + dot notation</text>
+  <rect x="702" y="215" width="360" height="112" rx="20" fill="#e9f2ff" stroke="#4a7cff"/>
+  <text x="735" y="252" font-family="Arial" font-size="28" font-weight="700" fill="#174185">Minecraft</text>
+  <text x="735" y="287" font-family="Arial" font-size="20" fill="#174185">Category: Creative</text>
+  <text x="735" y="318" font-family="Arial" font-size="20" fill="#174185">Rating: 5/5</text>
+
+  <rect x="48" y="430" width="520" height="250" rx="26" fill="#ffffff" stroke="#d8e2ff"/>
+  <text x="78" y="474" font-family="Arial" font-size="22" font-weight="700" fill="#20264f">Template string creates HTML</text>
+  <text x="78" y="520" font-family="Courier New" font-size="20" fill="#6c38ff">&lt;h2&gt;${movie.title}&lt;/h2&gt;</text>
+  <text x="78" y="555" font-family="Courier New" font-size="20" fill="#6c38ff">&lt;p&gt;${movie.category}&lt;/p&gt;</text>
+  <rect x="95" y="585" width="350" height="55" rx="18" fill="#fff7fb" stroke="#ff8ec4"/>
+  <text x="125" y="621" font-family="Arial" font-size="22" font-weight="700" fill="#20264f">Inside Out — Movie</text>
+
+  <rect x="632" y="430" width="520" height="250" rx="26" fill="#ffffff" stroke="#d8e2ff"/>
+  <text x="662" y="474" font-family="Arial" font-size="22" font-weight="700" fill="#20264f">Rendered cards from an array</text>
+  <rect x="662" y="520" width="135" height="110" rx="18" fill="#4a7cff"/>
+  <text x="686" y="582" font-family="Arial" font-size="18" font-weight="700" fill="#ffffff">Book</text>
+  <rect x="825" y="520" width="135" height="110" rx="18" fill="#f24f68"/>
+  <text x="850" y="582" font-family="Arial" font-size="18" font-weight="700" fill="#ffffff">Movie</text>
+  <rect x="988" y="520" width="135" height="110" rx="18" fill="#28a36a"/>
+  <text x="1015" y="582" font-family="Arial" font-size="18" font-weight="700" fill="#ffffff">Game</text>
+</svg>
