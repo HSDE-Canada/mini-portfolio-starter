@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#eaf7ff"/>
+  <text x="48" y="58" font-family="Arial" font-size="34" font-weight="700" fill="#143858">Week 4: APIs &amp; External Data</text>
+  <text x="48" y="92" font-family="Arial" font-size="18" fill="#526d82">Concrete outputs for API URLs, fetch, JSON, nested data, loading, and errors</text>
+
+  <rect x="48" y="130" width="520" height="250" rx="26" fill="#111827"/>
+  <text x="78" y="168" font-family="Arial" font-size="18" fill="#9ca3af">Request URL</text>
+  <text x="78" y="220" font-family="Courier New" font-size="21" fill="#22c55e">countryName = "Canada"</text>
+  <text x="78" y="270" font-family="Courier New" font-size="18" fill="#ffffff">https://restcountries.com/v3.1/name/Canada</text>
+  <text x="78" y="325" font-family="Courier New" font-size="21" fill="#60a5fa">fetch(apiUrl)</text>
+
+  <rect x="632" y="130" width="520" height="250" rx="26" fill="#ffffff" stroke="#bfe7ff"/>
+  <text x="662" y="174" font-family="Arial" font-size="22" font-weight="700" fill="#143858">JSON response becomes data</text>
+  <text x="662" y="220" font-family="Courier New" font-size="19" fill="#4b5563">data[0].name.common → Canada</text>
+  <text x="662" y="260" font-family="Courier New" font-size="19" fill="#4b5563">data[0].capital[0] → Ottawa</text>
+  <text x="662" y="300" font-family="Courier New" font-size="19" fill="#4b5563">data[0].population → 38005238</text>
+
+  <rect x="48" y="430" width="520" height="250" rx="26" fill="#ffffff" stroke="#bfe7ff"/>
+  <text x="78" y="474" font-family="Arial" font-size="22" font-weight="700" fill="#143858">Rendered country card</text>
+  <text x="78" y="535" font-family="Arial" font-size="38" font-weight="700" fill="#143858">Canada</text>
+  <text x="78" y="580" font-family="Arial" font-size="22" fill="#526d82">Capital: Ottawa</text>
+  <text x="78" y="615" font-family="Arial" font-size="22" fill="#526d82">Region: Americas</text>
+  <rect x="340" y="510" width="160" height="120" rx="20" fill="#dff2ff"/>
+  <text x="382" y="582" font-family="Arial" font-size="44">🏛️</text>
+
+  <rect x="632" y="430" width="520" height="250" rx="26" fill="#ffffff" stroke="#bfe7ff"/>
+  <text x="662" y="474" font-family="Arial" font-size="22" font-weight="700" fill="#143858">Loading + error states</text>
+  <rect x="662" y="515" width="420" height="54" rx="18" fill="#eef8ff"/>
+  <text x="690" y="550" font-family="Arial" font-size="20" fill="#143858">Loading country data...</text>
+  <rect x="662" y="595" width="420" height="54" rx="18" fill="#fff0f0" stroke="#ef4444"/>
+  <text x="690" y="630" font-family="Arial" font-size="20" fill="#b91c1c">Country not found. Please try again.</text>
+</svg>
