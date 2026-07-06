@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f1fbf5"/>
+  <text x="48" y="58" font-family="Arial" font-size="34" font-weight="700" fill="#183b2b">Week 6: Databases</text>
+  <text x="48" y="92" font-family="Arial" font-size="18" fill="#547263">Concrete outputs for SQLite tables, saved rows, server routes, and project cards</text>
+  <rect x="48" y="130" width="520" height="250" rx="26" fill="#ffffff" stroke="#bde8cc"/>
+  <text x="78" y="174" font-family="Arial" font-size="22" font-weight="700" fill="#183b2b">SQLite table: projects</text>
+  <rect x="78" y="210" width="420" height="38" fill="#28a36a"/>
+  <text x="94" y="236" font-family="Arial" font-size="16" font-weight="700" fill="#ffffff">id</text>
+  <text x="155" y="236" font-family="Arial" font-size="16" font-weight="700" fill="#ffffff">title</text>
+  <text x="310" y="236" font-family="Arial" font-size="16" font-weight="700" fill="#ffffff">student</text>
+  <text x="410" y="236" font-family="Arial" font-size="16" font-weight="700" fill="#ffffff">status</text>
+  <text x="94" y="280" font-family="Arial" font-size="17" fill="#183b2b">1</text>
+  <text x="155" y="280" font-family="Arial" font-size="17" fill="#183b2b">Country Explorer</text>
+  <text x="310" y="280" font-family="Arial" font-size="17" fill="#183b2b">Maya</text>
+  <text x="410" y="280" font-family="Arial" font-size="17" fill="#183b2b">Complete</text>
+  <text x="94" y="325" font-family="Arial" font-size="17" fill="#183b2b">2</text>
+  <text x="155" y="325" font-family="Arial" font-size="17" fill="#183b2b">Quiz Grader</text>
+  <text x="310" y="325" font-family="Arial" font-size="17" fill="#183b2b">Liam</text>
+  <text x="410" y="325" font-family="Arial" font-size="17" fill="#183b2b">In Progress</text>
+  <rect x="632" y="130" width="520" height="250" rx="26" fill="#111827"/>
+  <text x="662" y="168" font-family="Arial" font-size="18" fill="#9ca3af">Terminal: server and database</text>
+  <text x="662" y="220" font-family="Courier New" font-size="22" fill="#22c55e">GET projects</text>
+  <text x="662" y="260" font-family="Courier New" font-size="21" fill="#ffffff">Server asks SQLite for saved projects</text>
+  <text x="662" y="305" font-family="Courier New" font-size="22" fill="#60a5fa">POST projects</text>
+  <text x="662" y="345" font-family="Courier New" font-size="21" fill="#ffffff">Server saves a new row in the table</text>
+  <rect x="48" y="430" width="520" height="250" rx="26" fill="#ffffff" stroke="#bde8cc"/>
+  <text x="78" y="474" font-family="Arial" font-size="22" font-weight="700" fill="#183b2b">Helper functions organize database logic</text>
+  <text x="78" y="525" font-family="Courier New" font-size="20" fill="#336b4b">getProjects()</text>
+  <text x="78" y="565" font-family="Courier New" font-size="20" fill="#336b4b">addProject(project)</text>
+  <text x="78" y="605" font-family="Courier New" font-size="20" fill="#336b4b">updateProjectStatus(id, status)</text>
+  <rect x="632" y="430" width="520" height="250" rx="26" fill="#ffffff" stroke="#bde8cc"/>
+  <text x="662" y="474" font-family="Arial" font-size="22" font-weight="700" fill="#183b2b">Frontend renders saved rows as cards</text>
+  <rect x="662" y="520" width="210" height="105" rx="18" fill="#e7f9ee" stroke="#28a36a"/>
+  <text x="685" y="555" font-family="Arial" font-size="20" font-weight="700" fill="#183b2b">Country Explorer</text>
+  <text x="685" y="590" font-family="Arial" font-size="16" fill="#547263">Student: Maya</text>
+  <rect x="902" y="520" width="210" height="105" rx="18" fill="#e7f9ee" stroke="#28a36a"/>
+  <text x="925" y="555" font-family="Arial" font-size="20" font-weight="700" fill="#183b2b">Quiz Grader</text>
+  <text x="925" y="590" font-family="Arial" font-size="16" fill="#547263">Student: Liam</text>
+</svg>
