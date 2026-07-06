@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mini Portfolio Homepage</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <main class="page-shell">
+            <header class="site-header">
+                <div class="logo-area">
+                    <div class="sparkle-logo">✦</div>
+
+                    <!-- Challenge 1: Write an h1 element here that displays your full name. -->
+                </div>
+
+                <nav class="nav-links">
+                    <a href="#about" class="active">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                </nav>
+            </header>
+
+            <section class="hero-section">
+                <div class="hero-content">
+                    <!-- Challenge 2: Write an h2 element here that introduces you by first name. Include the wave span inside the h2. -->
+
+                    <!-- Challenge 3: Write a p element here with class="hero-text" and id="hero-message". Add a short welcome message inside it. -->
+                </div>
+
+                <div class="hero-avatar-area">
+                    <div class="avatar-upload-card">
+                        <div class="avatar-circle">
+                            <img src="" alt="Profile picture" class="avatar-image" id="avatar-image">
+                            <div class="avatar-placeholder" id="avatar-placeholder">
+                                <span class="camera-icon">📸</span>
+                                <p>Upload your picture</p>
+                            </div>
+                        </div>
+                        <label for="avatar-upload" class="upload-button">Choose Picture</label>
+                        <input type="file" id="avatar-upload" accept="image/*">
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-card" id="about">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <!-- Challenge 4: Write a p element here with id="about-message". Add a short bio inside it. -->
+                    <button class="secondary-button" id="learn-more-button"><span>♙</span> Learn More About Me</button>
+                </div>
+                <div class="laptop-illustration">
+                    <div class="laptop-screen">
+                        <div class="screen-dot"></div>
+                        <div class="screen-line short"></div>
+                        <div class="screen-code">&lt;/&gt;</div>
+                        <div class="screen-line"></div>
+                        <div class="screen-line medium"></div>
+                    </div>
+                    <div class="laptop-base"></div>
+                </div>
+            </section>
+
+            <section class="projects-section" id="projects">
+                <div class="section-heading">
+                    <p>Future Projects</p>
+                    <h2>Things I Want to Build</h2>
+                </div>
+                <div class="project-grid">
+                    <!-- Challenge 5: Write the first article element with class="project-card". Inside it, include a project icon div, an h3 title, and a p description. -->
+                    <!-- Challenge 6: Write the second article element with class="project-card". Use the same structure as the first card. -->
+                    <!-- Challenge 7: Write the third article element with class="project-card". Use the same structure as the first card. -->
+                </div>
+            </section>
+
+            <section class="skills-section" id="skills">
+                <div class="section-heading">
+                    <p>My Skills</p>
+                    <h2>What I’m Learning</h2>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-pill">HTML</div>
+                    <div class="skill-pill">CSS</div>
+                    <div class="skill-pill">JavaScript</div>
+                    <div class="skill-pill">Design</div>
+                </div>
+                <button class="secondary-button" id="skill-button">Show My Coding Goal</button>
+                <p class="goal-message" id="goal-message"></p>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
